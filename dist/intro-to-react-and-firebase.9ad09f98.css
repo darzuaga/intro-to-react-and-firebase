@@ -1,0 +1,36 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#root iframe {
+    width: 100%;
+    height: -webkit-fill-available;
+    border: none;
+    overflow-x: scroll;
+    
+}
+
+.app_main_navigation {
+    margin-bottom: 20px;
+}
+
+.app_container {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.post_inputs_container {
+    margin-top: 20px;
+}
+
+.post_input_container {
+    margin-bottom: 20px;
+}
+
+.post_input_button {
+    float: right;
+}
+
+/*# sourceMappingURL=/intro-to-react-and-firebase.9ad09f98.css.map */
