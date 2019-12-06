@@ -1,0 +1,34 @@
+{
+  "name": "intro-to-react-and-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "copy:css": "cpy 'index.css' 'dist'",
+    "build:main": "parcel build src/index.js --no-content-hash --no-minify --no-cache --no-source-maps --out-dir dist",
+    "prod": "npm-run-all build:* copy:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "antd": "^3.25.1",
+    "core-js": "^3.4.1",
+    "firebase": "^7.3.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "parcel-bundler": "^1.12.4",
+    "react-hot-loader": "^4.12.16"
+  }
+}
